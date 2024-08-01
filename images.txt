@@ -1,22 +1,22 @@
-nginx
+--platform=linux/amd64 nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 openmetadata/ingestion
 openmetadata/server
 openmetadata/db
-elasticsearch
-grafana
-zabbix
-bitnami/prometheus
-zabbix/zabbix-web-nginx-mysql
-zabbix/zabbix-server-mysql
-zabbix/zabbix-web-nginx-pgsql
-zabbix/zabbix-server-pgsql
-alpine
-mysql
-portainer
-rocky8
+--platform=linux/amd64 elasticsearch:8.14.3
+--platform=linux/amd64 grafana
+--platform=linux/amd64 zabbix
+--platform=linux/amd64 bitnami/prometheus
+--platform=linux/amd64 zabbix/zabbix-web-nginx-mysql
+--platform=linux/amd64 zabbix/zabbix-server-mysql
+--platform=linux/amd64 zabbix/zabbix-web-nginx-pgsql
+--platform=linux/amd64 zabbix/zabbix-server-pgsql
+--platform=linux/amd64 alpine
+--platform=linux/amd64 mysql
+--platform=linux/amd64 portainer
+--platform=linux/amd64 rocky8
 #支持指定架构
 --platform=linux/amd64 xiaoyaliu/alist
 
