@@ -5,7 +5,8 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 23 * * *'
+    # UTC 时间比北京时间慢8小时
+    - cron: '0 14 * * *'
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
