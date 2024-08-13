@@ -13,7 +13,8 @@ zabbix/zabbix-server-mysql
 zabbix/zabbix-web-nginx-pgsql
 zabbix/zabbix-server-pgsql
 alpine
-mysql
+mysqlmysql
+mysql:8.0-debian
 portainer
 rocky8
 #支持指定架构
