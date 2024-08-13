@@ -14,4 +14,5 @@ zabbix/zabbix-server-pgsql
 alpine
 mysql:8.0-debian
 portainer/portainer-ce
-rocky8
+rockylinux:8.9-minimal
+rockylinux:9.3-minimal
