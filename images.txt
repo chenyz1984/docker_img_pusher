@@ -6,6 +6,7 @@ openmetadata/server
 openmetadata/db
 elasticsearch:8.14.3
 jenkins/jenkins
+bigtop/slaves:3.3.0-centos-7
 grafana/grafana
 bitnami/prometheus
 zabbix/zabbix-web-nginx-mysql
