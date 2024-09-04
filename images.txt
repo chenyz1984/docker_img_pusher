@@ -5,6 +5,7 @@ openmetadata/ingestion
 openmetadata/server
 openmetadata/db
 elasticsearch:8.14.3
+jenkins/jenkins
 grafana/grafana
 bitnami/prometheus
 zabbix/zabbix-web-nginx-mysql
