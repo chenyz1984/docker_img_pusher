@@ -1,14 +1,10 @@
 --platform=linux/amd64 nginx
 centos
 #支持私库#支持私库
+bigtop/slaves:3.2.0-centos-7
+bigtop/slaves:3.3.0-centos-7
 easychen/cookiecloud
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-openmetadata/ingestion
-openmetadata/server
-openmetadata/db
-elasticsearch:8.14.3
-jenkins/jenkins
-bigtop/slaves:3.3.0-centos-7
 grafana/grafana
 bitnami/prometheus
 zabbix/zabbix-web-nginx-mysql
