@@ -13,3 +13,4 @@ mysql:8.0-debian
 portainer/portainer-ce
 rockylinux:8
 rockylinux:9
+linuxserver/qbittorrent
