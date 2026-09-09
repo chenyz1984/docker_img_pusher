@@ -1,16 +1,16 @@
 --platform=linux/amd64 nginx
 #支持私库#支持私库
-bigtop/slaves:3.2.0-centos-7
+#bigtop/slaves:3.2.0-centos-7
 easychen/cookiecloud
-grafana/grafana
-bitnami/prometheus
-zabbix/zabbix-web-nginx-mysql
-zabbix/zabbix-server-mysql
-zabbix/zabbix-web-nginx-pgsql
-zabbix/zabbix-server-pgsql
-alpine
+#grafana/grafana
+#bitnami/prometheus
+#zabbix/zabbix-web-nginx-mysql
+#zabbix/zabbix-server-mysql
+#zabbix/zabbix-web-nginx-pgsql
+#zabbix/zabbix-server-pgsql
+#alpine
 mysql:8.0-debian
-portainer/portainer-ce
+#portainer/portainer-ce
 rockylinux:8
-rockylinux:9
+#rockylinux:9
 linuxserver/qbittorrent
