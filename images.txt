@@ -14,3 +14,4 @@ mysql:8.0-debian
 rockylinux:8
 #rockylinux:9
 linuxserver/qbittorrent
+stirlingtools/stirling-pdf
